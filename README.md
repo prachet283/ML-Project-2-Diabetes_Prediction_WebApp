@@ -12,7 +12,7 @@ Streamlit
 scikit-learn
 
 # Usage
-Clone the repository: git clone https://github.com/yourusername/diabetes-prediction-app.git
+Clone the repository
 Install dependencies: pip install -r requirements.txt
 Run the application: streamlit run app.py
 Open the URL provided by Streamlit in your browser.
