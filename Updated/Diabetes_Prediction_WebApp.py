@@ -11,21 +11,21 @@ import streamlit as st
 import pandas as pd
 
 #loading. the saved model
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-2-Diabetes_Prediction_WebApp/Updated/columns.pkl", 'rb') as f:
+with open("Updated/columns.pkl", 'rb') as f:
     all_features = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-2-Diabetes_Prediction_WebApp/Updated/scaler.pkl", 'rb') as f:
+with open("Updated/scaler.pkl", 'rb') as f:
     scalers = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-2-Diabetes_Prediction_WebApp/Updated/best_features_svc.json", 'r') as file:
+with open("Updated/best_features_svc.json", 'r') as file:
     best_features_svc = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-2-Diabetes_Prediction_WebApp/Updated/best_features_lr.json", 'r') as file:
+with open("Updated/best_features_lr.json", 'r') as file:
     best_features_lr = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-2-Diabetes_Prediction_WebApp/Updated/best_features_rfc.json", 'r') as file:
+with open("Updated/best_features_rfc.json", 'r') as file:
     best_features_rfc = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-2-Diabetes_Prediction_WebApp/Updated/diabetes_disease_trained_svc_model.sav", 'rb') as f:
+with open("Updated/diabetes_disease_trained_svc_model.sav", 'rb') as f:
     loaded_model_svc = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-2-Diabetes_Prediction_WebApp/Updated/diabetes_disease_trained_lr_model.sav", 'rb') as f:
+with open("Updated/diabetes_disease_trained_lr_model.sav", 'rb') as f:
     loaded_model_lr = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-2-Diabetes_Prediction_WebApp/Updated/diabetes_disease_trained_rfc_model.sav", 'rb') as f:
+with open("Updated/diabetes_disease_trained_rfc_model.sav", 'rb') as f:
     loaded_model_rfc = pickle.load(f)
 
 #creating a function for prediction
