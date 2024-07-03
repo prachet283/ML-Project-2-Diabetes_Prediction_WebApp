@@ -19,5 +19,7 @@ Open the URL provided by Streamlit in your browser.
 
 # Deployment
 The application is deployed using Streamlit. You can access it here 
+
 Earlier one = https://ml-project-2-diabetespredictionwebapp-44rgkbp7odkbzjcmyl94ki.streamlit.app/
+
 Improved = https://ml-project-2-diabetespredictionwebapp-fwe2ejnzkx44xh2kgjh5y3.streamlit.app/
